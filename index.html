@@ -8,11 +8,13 @@
     </head>
     <body>
         <div id="navbar">
-            <div class="biglinkie"> big linkie</div>
-            <div class="linkie">linkie 1</div>
-            <div class="linkie">linkie 2</div>
-            <div class="linkie">linkie 3</div>
+            <div class="biglinkie">not big linkie</div>
+            <div class="linkie">not linkie 1</div>
+            <div class="linkie">not linkie 2</div>
+            <div class="linkie">not linkie 3</div>
         </div>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="stuff/thing.js"></script>
         <div id="content">
             <div id="content-inner">
                 <h1>big textie</h1>
@@ -20,6 +22,15 @@
                     Long textie long textie long textie long textie long textie long textie long textie long textie long textie long textie long textie long textie long textie long textie long textie long textie 
                     long textie long textie long textie long textie long textie long textie long textie long textie long textie long textie long textie long textie long textie.
                 </p>
+                <div style="text-align: center;">
+                    <div id="button">
+                        click
+                        <script>$("#button").click(clicked);</script>
+                    </div>
+                </div>
+                <div style="text-align: center;">
+                    <h1 id="clicksamount">clicks: 0</h1>
+                </div>
             </div>
         </div>
     </body>
